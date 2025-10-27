@@ -1,5 +1,3 @@
-print("✅ app.py started running...")
-
 from function import *
 from keras.utils import to_categorical
 from keras.models import model_from_json
