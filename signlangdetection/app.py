@@ -1,3 +1,5 @@
+print("✅ app.py started running...")
+
 from function import *
 from keras.utils import to_categorical
 from keras.models import model_from_json
@@ -6,7 +8,6 @@ from keras.callbacks import TensorBoard
 from gtts import gTTS
 import os
 
-print("✅ app.py started running...")
 
 # Function to convert text to speech
 def text_to_speech(text):
