@@ -6,6 +6,8 @@ from keras.callbacks import TensorBoard
 from gtts import gTTS
 import os
 
+print("✅ app.py started running...")
+
 # Function to convert text to speech
 def text_to_speech(text):
     tts = gTTS(text=text, lang='en')
